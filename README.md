@@ -30,10 +30,6 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 * [asset-builder](https://github.com/austinpray/asset-builder) for the JSON file based asset pipeline
 * [Bootstrap](http://getbootstrap.com/)
 * [Theme wrapper](https://roots.io/sage/docs/theme-wrapper/)
-* [HTML5 Boilerplate](http://html5boilerplate.com/)
-  * The latest [jQuery](http://jquery.com/) via Google CDN, with a local fallback
-  * The latest [Modernizr](http://modernizr.com/) build for feature detection
-  * An optimized Google Analytics snippet
 * ARIA roles and microformats
 * Cleaner HTML output of navigation menus
 * Posts use the [hNews](http://microformats.org/wiki/hnews) microformat
@@ -44,6 +40,8 @@ Install the [Soil](https://github.com/roots/soil) plugin to enable additional fe
 * Cleaner output of `wp_head` and enqueued assets
 * Root relative URLs
 * Nice search (`/search/query/`)
+* Google CDN jQuery snippet from [HTML5 Boilerplate](http://html5boilerplate.com/)
+* Google Analytics snippet from [HTML5 Boilerplate](http://html5boilerplate.com/)
 
 ## Installation
 
@@ -57,7 +55,7 @@ define('WP_ENV', 'development');
 
 ## Configuration
 
-Edit `lib/config.php` to enable or disable theme features and to define a Google Analytics ID.
+Edit `lib/config.php` to enable or disable theme features
 
 Edit `lib/init.php` to setup navigation menus, post thumbnail sizes, post formats, and sidebars.
 
